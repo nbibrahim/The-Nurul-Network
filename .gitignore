@@ -1,5 +1,4 @@
 models/data/
-models/models/
 models/saved_models/
 models/wandb/
 PINN/basic-pinn/train_data_histogram_longtime_210000_coursegrained.csv
