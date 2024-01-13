@@ -1,5 +1,5 @@
-neural_networks/data/
-neural_networks/models/
-neural_networks/saved_models/
-neural_networks/wandb/
+models/data/
+models/models/
+models/saved_models/
+models/wandb/
 PINN/basic-pinn/train_data_histogram_longtime_210000_coursegrained.csv
