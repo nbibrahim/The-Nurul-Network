@@ -1,0 +1,4 @@
+neural_networks/data/
+neural_networks/models/
+neural_networks/saved_models/
+neural_networks/wandb/
