@@ -1,0 +1,34 @@
+method: bayes
+metric:
+  goal: minimize
+  name: epoch/val_loss
+parameters:
+  batch_size:
+    distribution: int_uniform
+    max: 16000
+    min: 128
+  dropout_1:
+    distribution: uniform
+    max: 0.3
+    min: 0.05
+  dropout_2:
+    distribution: uniform
+    max: 0.3
+    min: 0.05
+  epoch:
+    distribution: int_uniform
+    max: 1000
+    min: 25
+  learning_rate:
+    distribution: uniform
+    max: 0.01
+    min: 0.0001
+  loss:
+    distribution: categorical
+    values:
+      - mean_squared_error
+  optimizer:
+    distribution: categorical
+    values:
+      - adam
+program: probability_NN.py
